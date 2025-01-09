@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/discord/1164200432894234644?logo=discord&label=PrivateGPT)](https://discord.gg/bK6mRVpErU)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ZylonPrivateGPT)](https://twitter.com/ZylonPrivateGPT)
 
-![Gradio UI](/fern/docs/assets/ui.png?raw=true)
+![Gradio UI](https://github.com/user-attachments/assets/7bbdac64-3d83-4b1c-a750-dcb8ff1bcf9f)
 
 PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power
 of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your
