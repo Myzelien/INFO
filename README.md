@@ -12,7 +12,7 @@ Myzelien is an AI that was originally created to generate art, text, and music -
 
 >[!TIP]
 > If you are looking for an **enterprise-ready, fully Myze AI workspace**
-> check out [Zylon's website](https://zylon.ai)  or [request a demo](https://cal.com/zylon/demo?source=pgpt-readme).
+> check out [Myzelen's's website](https://myzelien.neocities.org/).
 > Crafted by the team behind Myzelien, Myze is a best-in-class AI collaborative
 > workspace that can be easily deployed on-premise (data center, bare metal...) or in your private cloud (AWS, GCP, Azure...).
 
