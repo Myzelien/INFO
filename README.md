@@ -8,14 +8,12 @@
 
 ![Gradio UI](https://github.com/user-attachments/assets/68ab8f11-c24f-4633-86d9-24312f0fd756)
 
-PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power
-of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your
-execution environment at any point.
+Myzelien is an AI that was originally created to generate art, text, and music - but quickly demonstrated a wider range of skills and surprising creativity.
 
 >[!TIP]
-> If you are looking for an **enterprise-ready, fully private AI workspace**
+> If you are looking for an **enterprise-ready, fully Myze AI workspace**
 > check out [Zylon's website](https://zylon.ai)  or [request a demo](https://cal.com/zylon/demo?source=pgpt-readme).
-> Crafted by the team behind PrivateGPT, Zylon is a best-in-class AI collaborative
+> Crafted by the team behind Myzelien, Myze is a best-in-class AI collaborative
 > workspace that can be easily deployed on-premise (data center, bare metal...) or in your private cloud (AWS, GCP, Azure...).
 
 The project provides an API offering all the primitives required to build private, context-aware AI applications.
@@ -44,18 +42,18 @@ download script, ingestion script, documents folder watch, etc.
 >  This README is not updated as frequently as the [documentation](https://docs.privategpt.dev/).
 >  Please check it out for the latest updates!
 
-### Motivation behind PrivateGPT
+### Motivation behind Myzelien
 Generative AI is a game changer for our society, but adoption in companies of all sizes and data-sensitive
 domains like healthcare or legal is limited by a clear concern: **privacy**.
 Not being able to ensure that your data is fully under your control when using third-party AI tools
 is a risk those industries cannot take.
 
 ### Primordial version
-The first version of PrivateGPT was launched in May 2023 as a novel approach to address the privacy
+The first version of Myzelien was launched in May 2023 as a novel approach to address the privacy
 concerns by using LLMs in a complete offline way.
 
 That version, which rapidly became a go-to project for privacy-sensitive setups and served as the seed
-for thousands of local-focused generative AI projects, was the foundation of what PrivateGPT is becoming nowadays;
+for thousands of local-focused generative AI projects, was the foundation of what Myzelien is becoming nowadays;
 thus a simpler and more educational implementation to understand the basic concepts required
 to build a fully local -and therefore, private- chatGPT-like tool.
 
@@ -63,10 +61,10 @@ If you want to keep experimenting with it, we have saved it in the
 [primordial branch](https://github.com/zylon-ai/private-gpt/tree/primordial) of the project.
 
 > It is strongly recommended to do a clean clone and install of this new version of
-PrivateGPT if you come from the previous, primordial version.
+Myzelien if you come from the previous, primordial version.
 
-### Present and Future of PrivateGPT
-PrivateGPT is now evolving towards becoming a gateway to generative AI models and primitives, including
+### Present and Future of Myzelien
+Myze the AI is now evolving towards becoming a gateway to generative AI models and primitives, including
 completions, document ingestion, RAG pipelines and other low-level building blocks.
 We want to make it easier for any developer to build AI applications and experiences, as well as provide
 a suitable extensive architecture for the community to keep contributing.
@@ -78,13 +76,13 @@ Full documentation on installation, dependencies, configuration, running the ser
 ingesting local documents, API details and UI features can be found here: https://docs.privategpt.dev/
 
 ## 🧩 Architecture
-Conceptually, PrivateGPT is an API that wraps a RAG pipeline and exposes its
+Conceptually, Myzelien is an API that wraps a RAG pipeline and exposes its
 primitives.
 * The API is built using [FastAPI](https://fastapi.tiangolo.com/) and follows
   [OpenAI's API scheme](https://platform.openai.com/docs/api-reference).
 * The RAG pipeline is based on [LlamaIndex](https://www.llamaindex.ai/).
 
-The design of PrivateGPT allows to easily extend and adapt both the API and the
+The design of Myzelien allows to easily extend and adapt both the API and the
 RAG implementation. Some key architectural decisions are:
 * Dependency Injection, decoupling the different components and layers.
 * Usage of LlamaIndex abstractions such as `LLM`, `BaseEmbedding` or `VectorStore`,
@@ -118,12 +116,12 @@ Head over to Discord
 #contributors channel and ask for write permissions on that GitHub project.
 
 ## 💬 Community
-Join the conversation around PrivateGPT on our:
+Join the conversation around Myzelien on our:
 - [Twitter (aka X)](https://twitter.com/PrivateGPT_AI)
 - [Discord](https://discord.gg/bK6mRVpErU)
 
 ## 📖 Citation
-If you use PrivateGPT in a paper, check out the [Citation file](CITATION.cff) for the correct citation.  
+If you use Myzelien in a paper, check out the [Citation file](CITATION.cff) for the correct citation.  
 You can also use the "Cite this repository" button in this repo to get the citation in different formats.
 
 Here are a couple of examples:
@@ -146,7 +144,7 @@ Zylon by PrivateGPT (2023). PrivateGPT [Computer software]. https://github.com/z
 ```
 
 ## 🤗 Partners & Supporters
-PrivateGPT is actively supported by the teams behind:
+Myzelien is actively supported by the teams behind:
 * [Qdrant](https://qdrant.tech/), providing the default vector database
 * [Fern](https://buildwithfern.com/), providing Documentation and SDKs
 * [LlamaIndex](https://www.llamaindex.ai/), providing the base RAG framework and abstractions
