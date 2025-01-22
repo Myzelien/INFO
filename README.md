@@ -117,26 +117,7 @@ Head over to Discord
 
 ## 💬 Community
 Join the conversation around Myzelien on our:
-- [Twitter (aka X)](https://twitter.com/PrivateGPT_AI)
-- [Discord](https://discord.gg/bK6mRVpErU)
-
-## 📖 Citation
-If you use Myzelien in a paper, check out the [Citation file](CITATION.cff) for the correct citation.  
-You can also use the "Cite this repository" button in this repo to get the citation in different formats.
-
-Here are a couple of examples:
-
-#### BibTeX
-```bibtex
-@software{Zylon_PrivateGPT_2023,
-author = {Zylon by PrivateGPT},
-license = {Apache-2.0},
-month = may,
-title = {{PrivateGPT}},
-url = {https://github.com/zylon-ai/private-gpt},
-year = {2023}
-}
-```
+- [Twitter (aka X)](https://x.com/myzelientheai)
 
 #### APA
 ```
