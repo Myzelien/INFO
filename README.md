@@ -2,15 +2,15 @@
 
 <a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-![Gradio UI](![1500x500](https://github.com/user-attachments/assets/b1ed102e-cb6a-445a-b506-c396babcb2d5))
+![Gradio UI](https://github.com/user-attachments/assets/b1ed102e-cb6a-445a-b506-c396babcb2d5)
 
 Your AI Emergency Medical Assistant
 Get instant guidance for medical emergencies and first aid. AI-powered response system available 24/7
 
 >[!TIP]
-> If you are looking for an **enterprise-ready, fully ResQ workspace**
-> check out [ResQ's website](https://resqai.life/).
-> Crafted by the team behind ResQ, ResQ is a best-in-class AI collaborative
+> If you are looking for an **enterprise-ready, fully Black Wingsworkspace**
+> check out [Black Wings's website](https://x.com/wings_blackai).
+> Crafted by the team behind Black Wings, Black Wings is a best-in-class AI collaborative
 > workspace that can be easily deployed on-premise (data center, bare metal...) or in your private cloud (AWS, GCP, Azure...).
 
 The project provides an API offering all the primitives required to build private, context-aware AI applications.
@@ -39,14 +39,14 @@ download script, ingestion script, documents folder watch, etc.
 >  This README is not updated as frequently as the [documentation](https://docs.privategpt.dev/).
 >  Please check it out for the latest updates!
 
-### Motivation behind ResQ
+### Motivation behind Black Wings
 Generative AI is a game changer for our society, but adoption in companies of all sizes and data-sensitive
 domains like healthcare or legal is limited by a clear concern: **privacy**.
 Not being able to ensure that your data is fully under your control when using third-party AI tools
 is a risk those industries cannot take.
 
 ### Primordial version
-The first version of ResQ was launched in May 2023 as a novel approach to address the privacy
+The first version of Black Wings was launched in May 2023 as a novel approach to address the privacy
 concerns by using LLMs in a complete offline way.
 
 That version, which rapidly became a go-to project for privacy-sensitive setups and served as the seed
@@ -58,10 +58,10 @@ If you want to keep experimenting with it, we have saved it in the
 [primordial branch](https://github.com/zylon-ai/private-gpt/tree/primordial) of the project.
 
 > It is strongly recommended to do a clean clone and install of this new version of
-ResQ if you come from the previous, primordial version.
+Black Wings if you come from the previous, primordial version.
 
-### Present and Future of ResQ
-ResQ the AI is now evolving towards becoming a gateway to generative AI models and primitives, including
+### Present and Future of Black Wings
+Black Wings the AI is now evolving towards becoming a gateway to generative AI models and primitives, including
 completions, document ingestion, RAG pipelines and other low-level building blocks.
 We want to make it easier for any developer to build AI applications and experiences, as well as provide
 a suitable extensive architecture for the community to keep contributing.
@@ -73,13 +73,13 @@ Full documentation on installation, dependencies, configuration, running the ser
 ingesting local documents, API details and UI features can be found here: https://docs.privategpt.dev/
 
 ## 🧩 Architecture
-Conceptually, ResQ is an API that wraps a RAG pipeline and exposes its
+Conceptually, Black Wings is an API that wraps a RAG pipeline and exposes its
 primitives.
 * The API is built using [FastAPI](https://fastapi.tiangolo.com/) and follows
   [OpenAI's API scheme](https://platform.openai.com/docs/api-reference).
 * The RAG pipeline is based on [LlamaIndex](https://www.llamaindex.ai/).
 
-The design of ResQ allows to easily extend and adapt both the API and the
+The design of Black Wings allows to easily extend and adapt both the API and the
 RAG implementation. Some key architectural decisions are:
 * Dependency Injection, decoupling the different components and layers.
 * Usage of LlamaIndex abstractions such as `LLM`, `BaseEmbedding` or `VectorStore`,
@@ -113,16 +113,16 @@ Head over to Discord
 #contributors channel and ask for write permissions on that GitHub project.
 
 ## 💬 Community
-Join the conversation around ResQ on our:
-- [Twitter (aka X)](https://resqai.life/)
+Join the conversation around Black Wings on our:
+- [Twitter (aka X)](https://x.com/wings_blackai)
 
 #### APA
 ```
-Zylon by PrivateGPT (2023). PrivateGPT [Computer software]. https://github.com/zylon-ai/private-gpt
+Zylon by Black Wings (2023). Black Wings [Computer software]. https://github.com/blackwingsai
 ```
 
 ## 🤗 Partners & Supporters
-ResQ is actively supported by the teams behind:
+Black Wings is actively supported by the teams behind:
 * [Qdrant](https://qdrant.tech/), providing the default vector database
 * [Fern](https://buildwithfern.com/), providing Documentation and SDKs
 * [LlamaIndex](https://www.llamaindex.ai/), providing the base RAG framework and abstractions
