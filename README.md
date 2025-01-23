@@ -2,18 +2,15 @@
 
 <a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-[![Tests](https://github.com/zylon-ai/private-gpt/actions/workflows/tests.yml/badge.svg)](https://github.com/zylon-ai/private-gpt/actions/workflows/tests.yml?query=branch%3Amain)
-[![Website](https://img.shields.io/website?up_message=check%20it&down_message=down&url=https%3A%2F%2Fdocs.privategpt.dev%2F&label=Documentation)](https://docs.privategpt.dev/)
-[![Discord](https://img.shields.io/discord/1164200432894234644?logo=discord&label=PrivateGPT)](https://discord.gg/bK6mRVpErU)
+![Gradio UI](https://github.com/user-attachments/assets/4be1146e-6734-4a47-8643-9325f177f79b)
 
-![Gradio UI](https://github.com/user-attachments/assets/68ab8f11-c24f-4633-86d9-24312f0fd756)
-
-Myzelien is an AI that was originally created to generate art, text, and music - but quickly demonstrated a wider range of skills and surprising creativity.
+Your AI Emergency Medical Assistant
+Get instant guidance for medical emergencies and first aid. AI-powered response system available 24/7
 
 >[!TIP]
-> If you are looking for an **enterprise-ready, fully Myze AI workspace**
-> check out [Myzelen's's website](https://myzelien.neocities.org/).
-> Crafted by the team behind Myzelien, Myze is a best-in-class AI collaborative
+> If you are looking for an **enterprise-ready, fully ResQ workspace**
+> check out [ResQ's website](https://resqai.life/).
+> Crafted by the team behind ResQ, ResQ is a best-in-class AI collaborative
 > workspace that can be easily deployed on-premise (data center, bare metal...) or in your private cloud (AWS, GCP, Azure...).
 
 The project provides an API offering all the primitives required to build private, context-aware AI applications.
@@ -42,18 +39,18 @@ download script, ingestion script, documents folder watch, etc.
 >  This README is not updated as frequently as the [documentation](https://docs.privategpt.dev/).
 >  Please check it out for the latest updates!
 
-### Motivation behind Myzelien
+### Motivation behind ResQ
 Generative AI is a game changer for our society, but adoption in companies of all sizes and data-sensitive
 domains like healthcare or legal is limited by a clear concern: **privacy**.
 Not being able to ensure that your data is fully under your control when using third-party AI tools
 is a risk those industries cannot take.
 
 ### Primordial version
-The first version of Myzelien was launched in May 2023 as a novel approach to address the privacy
+The first version of ResQ was launched in May 2023 as a novel approach to address the privacy
 concerns by using LLMs in a complete offline way.
 
 That version, which rapidly became a go-to project for privacy-sensitive setups and served as the seed
-for thousands of local-focused generative AI projects, was the foundation of what Myzelien is becoming nowadays;
+for thousands of local-focused generative AI projects, was the foundation of what ResQ is becoming nowadays;
 thus a simpler and more educational implementation to understand the basic concepts required
 to build a fully local -and therefore, private- chatGPT-like tool.
 
@@ -61,10 +58,10 @@ If you want to keep experimenting with it, we have saved it in the
 [primordial branch](https://github.com/zylon-ai/private-gpt/tree/primordial) of the project.
 
 > It is strongly recommended to do a clean clone and install of this new version of
-Myzelien if you come from the previous, primordial version.
+ResQ if you come from the previous, primordial version.
 
-### Present and Future of Myzelien
-Myze the AI is now evolving towards becoming a gateway to generative AI models and primitives, including
+### Present and Future of ResQ
+ResQ the AI is now evolving towards becoming a gateway to generative AI models and primitives, including
 completions, document ingestion, RAG pipelines and other low-level building blocks.
 We want to make it easier for any developer to build AI applications and experiences, as well as provide
 a suitable extensive architecture for the community to keep contributing.
@@ -76,13 +73,13 @@ Full documentation on installation, dependencies, configuration, running the ser
 ingesting local documents, API details and UI features can be found here: https://docs.privategpt.dev/
 
 ## 🧩 Architecture
-Conceptually, Myzelien is an API that wraps a RAG pipeline and exposes its
+Conceptually, ResQ is an API that wraps a RAG pipeline and exposes its
 primitives.
 * The API is built using [FastAPI](https://fastapi.tiangolo.com/) and follows
   [OpenAI's API scheme](https://platform.openai.com/docs/api-reference).
 * The RAG pipeline is based on [LlamaIndex](https://www.llamaindex.ai/).
 
-The design of Myzelien allows to easily extend and adapt both the API and the
+The design of ResQ allows to easily extend and adapt both the API and the
 RAG implementation. Some key architectural decisions are:
 * Dependency Injection, decoupling the different components and layers.
 * Usage of LlamaIndex abstractions such as `LLM`, `BaseEmbedding` or `VectorStore`,
@@ -116,8 +113,8 @@ Head over to Discord
 #contributors channel and ask for write permissions on that GitHub project.
 
 ## 💬 Community
-Join the conversation around Myzelien on our:
-- [Twitter (aka X)](https://x.com/myzelientheai)
+Join the conversation around ResQ on our:
+- [Twitter (aka X)](https://resqai.life/)
 
 #### APA
 ```
@@ -125,7 +122,7 @@ Zylon by PrivateGPT (2023). PrivateGPT [Computer software]. https://github.com/z
 ```
 
 ## 🤗 Partners & Supporters
-Myzelien is actively supported by the teams behind:
+ResQ is actively supported by the teams behind:
 * [Qdrant](https://qdrant.tech/), providing the default vector database
 * [Fern](https://buildwithfern.com/), providing Documentation and SDKs
 * [LlamaIndex](https://www.llamaindex.ai/), providing the base RAG framework and abstractions
