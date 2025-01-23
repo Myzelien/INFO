@@ -1,11 +1,10 @@
 # Black Wings
 
-<a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://github.com/blackwingsai/INFO" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 ![Gradio UI](https://github.com/user-attachments/assets/b1ed102e-cb6a-445a-b506-c396babcb2d5)
 
-Your AI Emergency Medical Assistant
-Get instant guidance for medical emergencies and first aid. AI-powered response system available 24/7
+Black Wings is the project about out-of-mind artificial intelligence
 
 >[!TIP]
 > If you are looking for an **enterprise-ready, fully Black Wingsworkspace**
