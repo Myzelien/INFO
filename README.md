@@ -1,7 +1,5 @@
 # Black Wings
 
-<a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://github.com/blackwingsai/INFO" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
 ![Gradio UI](https://github.com/user-attachments/assets/b1ed102e-cb6a-445a-b506-c396babcb2d5)
 
 Black Wings is the project about out-of-mind artificial intelligence
@@ -132,3 +130,5 @@ This project has been strongly influenced and supported by other amazing project
 [LlamaCpp](https://github.com/ggerganov/llama.cpp),
 [Chroma](https://www.trychroma.com/)
 and [SentenceTransformers](https://www.sbert.net/).
+
+![Gradio UI](https://github.com/user-attachments/assets/1ea6ee6d-f72a-4804-a4d7-f50c47025c12)
