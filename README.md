@@ -1,8 +1,8 @@
-# ResQ
+# Black Wings
 
 <a href="https://trendshift.io/repositories/2601" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2601" alt="imartinez%2FprivateGPT | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-![Gradio UI](https://github.com/user-attachments/assets/4be1146e-6734-4a47-8643-9325f177f79b)
+![Gradio UI](![1500x500](https://github.com/user-attachments/assets/b1ed102e-cb6a-445a-b506-c396babcb2d5))
 
 Your AI Emergency Medical Assistant
 Get instant guidance for medical emergencies and first aid. AI-powered response system available 24/7
